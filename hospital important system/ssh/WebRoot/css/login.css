@@ -1,0 +1,24 @@
+.loginform{
+	width: 1000px;
+	height: 568px;
+	margin:0 auto;
+	text-align: center;
+	background-image: url("../images/login/loginbg.jpg");
+}
+.form{
+	background-image: url("../images/login/denglu1.png");
+	width:336px;
+	margin:0 auto;
+	height:228px;
+	margin-left: 540px;
+	margin-top: 150px;
+}
+.loginbutton{
+	background-image: url("../images/login/login.png");
+	border:0;
+	width: 77px;
+	height: 32px;
+}
+.form p{
+	height: 25px;
+}

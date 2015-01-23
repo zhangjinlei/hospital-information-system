@@ -1,0 +1,17 @@
+.foot{
+width: 1000px;
+margin: 0 auto;/*居中*/
+height: 80px;
+padding-top: 10px;/*设置元素上内边距的宽度10像素*/
+border-top: 1px solid gray;/*上边框1像素厚，灰色，SOLID*/
+}
+.navi2{
+float: right;/*浮动在右端*/
+}
+.navi2 li{
+float: left;/*浮动在左端*/
+list-style-type: none;/*li标签前端的小黑点隐去*/
+height: 33px;
+width: 60px;
+text-align: center;
+}

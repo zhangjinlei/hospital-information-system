@@ -1,0 +1,33 @@
+.head1{
+	height: 55px;
+	width: 1000px;
+	/*background: white;背景色*/
+	margin: 0 auto;/*居中*/
+}
+.head2{
+	height: 55px;
+	width: 1000px;
+	/*background: white;*/
+	margin-right:50px;/*距离右端50像素*/
+	/*position:fixed;固定在网页上*/
+	top:50px; /*距顶端距离*/
+	right:190px; /*距右端距离*/
+}
+.headfull{
+	width: 1000px;
+	margin:0 auto;
+	background-color: white;
+}
+.navi1{
+	float: right;/*浮动在右端*/
+	margin-top: 10px;
+	margin-right: 50px;
+}
+.navi1 li{
+	float: left;/*浮动在左端*/
+	list-style-type: none;/*li标签前端的小黑点隐去*/
+	height: 33px;
+	width: 60px;
+	line-height: 33px;/*设置行与行的间距*/
+	text-align: center;/*内容居中*/
+}

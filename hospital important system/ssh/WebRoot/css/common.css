@@ -1,0 +1,22 @@
+body{
+	font-size: 12px;
+	margin: 0;
+	font-family:Arial, "宋体", Helvetica, sans-serif;
+	font-size:14px;
+	background:whiteSmoke;
+}
+/*定义一下常用的超链接样式*/
+/*对连接的一般处理方法*/
+a.anavi:link,a.anavi:visited,a.anavi:hover,a.anavi:active {/*设置css名称anavi，在链接未点击，已经点击过的，鼠标放在链接上，链接按下时状态*/
+	color:#00CCFF;
+	text-decoration: none;
+}
+
+a:link,a:visited,a:active {
+	color:#3B5888;
+	text-decoration: none;
+}
+a:hover{
+	color: #3B5888;
+	text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.registerform{
+	width: 1000px;
+	height: 568px;
+	margin:0 auto;
+	text-align: center;
+	background-image: url("../images/login/loginbg.jpg");
+}
+.form{
+	background-image: url("../images/register/register1.png");
+	width:334px;
+	margin-left: 540px;
+	height: 315px;
+	text-align: center;
+}
+.registerbutton{
+	background-image: url("../images/register/register.jpg");
+	border:0;
+	width: 77px;
+	height: 32px;
+}
+.form tr{
+	height: 25px;
+}

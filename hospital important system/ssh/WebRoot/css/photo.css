@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+div.LunBo {
+	margin:0px;
+	position: relative;
+	height: 300px;
+	width: 600px;
+	border-radius: 6px;
+    box-shadow:2px 2px 12px 2px #B0B0B0;
+    border:1px solid #B0B0B0;
+}
+
+div.LunBo ul li {
+	position: absolute;
+	height: 300px;
+	width: 600px;
+	display: none;
+	list-style:none
+}
+
+/*div.LunBo ul li.CurrentPic {
+	display: block;
+}*/
+
+div.LunBo div.LunBoNum {
+	position: absolute;
+	left: 474px;
+	bottom: 11px;
+	width: 100px;
+	text-align: right;
+	background: url(http://image2.sina.com.cn/music/web/sinaweibo/radio/imgs/transblack40_20111010.png);
+	_background: #000;
+	z-index: 3;
+	padding-left: 10px;
+}
+
+div.LunBo div.LunBoNum span {
+	height: 20px;
+	width: 15px;
+	display: block;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	cursor: pointer;
+}
+
+div.LunBo div.LunBoNum span.CurrentNum {
+	background-color: #DCDCDC;
+}
